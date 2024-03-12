@@ -75,7 +75,7 @@ class Bird(pygame.sprite.Sprite):
 				if var < 13 and var > 2:
 					self.rect[1] += 15
 				elif var > 13:
-					self.rect[1] -= 15
+					self.rect[1] -= (5 + var/4)
 					if self.rect[1] < 0:
 						self.rect[1] = 0
 				sleep(0.03)
