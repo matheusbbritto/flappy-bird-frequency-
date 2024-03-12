@@ -30,9 +30,9 @@ score = 0
 pass_pipe = False
 
 
-bg = pygame.image.load('img/bg.png')
-ground_img = pygame.image.load('img/ground.png')
-button_img = pygame.image.load('img/restart.png')
+bg = pygame.image.load('bg.png')
+ground_img = pygame.image.load('ground.png')
+button_img = pygame.image.load('restart.png')
 
 
 def draw_text(text, font, text_col, x, y):
